@@ -12,6 +12,8 @@ It's different from a standard WiFi scan in that it doesn't send out inquiries, 
 
 The code is meant to be extremely simple, and was a way for me to learn the very basics of using an inexpensive ESP8266-based board, and the structure of an 802.11 beacon packet, which is parsed in the simpliest way possible, though not the most robust way.
 
+This was inspired by the [ESP8266 Mini Sniff](https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a) project, which contains a far more complete 802.11 frame parser.  I wound up writing my own parser for simplicity and as a learning exercise.
+
 The little device itself is also useful in tracking down WiFi APs, as they're constantly being sorted by RSSI, making it possible to roam until the targeted network is first on the list.
 
 ## Building
