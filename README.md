@@ -20,7 +20,7 @@ I used the Arduino IDE to build and upload the code to the board.  Configure the
 
 Once you've added the board manager URL, installed the board in the board manager, and selcted the board type, in my case NodeMCU 1.0 (ESP-12E), you should be able to verify (compile) code, and upload it to the board.
 
-Next, select "Include Library" from the "Sketch" menu, and add the "(ACROBOTIC SSD1306)[https://github.com/acrobotic/Ai_Ardulib_SSD1306]" module.  If you're using a different kind of screen, you'll need to modify the source code.
+Next, select "Include Library" from the "Sketch" menu, and add the "[ACROBOTIC SSD1306](https://github.com/acrobotic/Ai_Ardulib_SSD1306)" module.  If you're using a different kind of screen, you'll need to modify the source code.
 
 Finally, add the C code in sketch.c from this repository, upload, and run!
 
