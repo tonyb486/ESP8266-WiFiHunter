@@ -18,7 +18,7 @@ The little device itself is also useful in tracking down WiFi APs, as they're co
 
 ## Building
 
-I used the Arduino IDE to build and upload the code to the board.  Configure the IDE to use the ESP8266 board type by following the instructions  [here](https://arduino-esp8266.readthedocs.io/en/2.5.0-beta2/installing.html#boards-manager).
+I used the Arduino IDE to build and upload the code to the board.  Configure the IDE to use the ESP8266 board type by following the instructions  [here](https://arduino-esp8266.readthedocs.io/en/latest/installing.html#boards-manager).
 
 Once you've added the board manager URL, installed the board in the board manager, and selcted the board type, in my case NodeMCU 1.0 (ESP-12E), you should be able to verify (compile) code, and upload it to the board.
 
